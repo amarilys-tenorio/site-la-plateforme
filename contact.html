@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="laplateforme.css">
+    <link rel="icon"  href="https://yt3.ggpht.com/cXq7RlSQwBW2AYLYfMphfsmahcbUjrdUDHDW3B62qUcmQrNWsRGl2LYwHUpq3fElRAJ3LvWv=s88-c-k-c0x00ffffff-no-rj" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
+    <title>Ecole La Plateforme</title>
+</head>
+<body>
+    <header> 
+        <div id="navBar">
+            <img src="https://laplateforme.io/wp-content/uploads/2021/07/logo_laplateforme_bleu3.png" width="400px">
+            <a href="accueil.html">Accueil</a>
+            <a href="qui-sommes-nous.html">Qui sommes nous?</a>
+            <a href="plateforme-start.html">La Plateforme Start</a>
+            <a href="news.html">News</a>
+            <a href="contact.html">Contact</a>
+        </div> 
+    </header>
+
+    <main>
+        <form action="/nulpart" method="post">
+            
+            <div>
+            <label for="cursus">La formation qui vous intéresse</label>
+            <select>
+                <option value="">Choisir un cursus</option>
+                <option>Coding School</option>
+                <option>AI School</option>
+                <option>Security School</option>
+                <option>Bachelor IT</option>
+                <option>La Plateforme Start</option>
+            </select>
+            </div>  
+
+            <div>
+                <label for="name">Nom :</label>
+                <input type="text" id="surname" name="user_surname">
+            </div>
+
+            <div>
+                <label for="name">Prénom :</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+
+            <div>
+                <label for="mail">E-mail :</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="phone">Tel :</label>
+                <input type="tel" id="phone" name="phone"></input>
+            </div>
+
+            <div>
+                <label for="address">Adresse :</label>
+                <textarea id="adresse" name="address" rows=2 required></textarea>
+            </div>
+
+            <div>
+                <label for="postcode">Code postal :</label>
+                <input type="codepostal" id="postcode" name="postcode" required>
+            </div>
+            
+            <div>
+                <label for="city">Ville :</label>
+                <input type="ville" id="city" name="city" required></input>
+            </div>
+
+            <div>
+            <label for="connu">Comment nous avez-vous connu?</label>
+                <textarea id="connu" name="connu" rows="5" cols="33">
+                </textarea>
+            </div>
+
+            <button type="button">Envoyer</button>
+
+        </form>
+
+        <div id="question">
+            <h2>Une autre question ?</h2>
+            <a>Nous sommes aussi joignables :<br>
+            – Par email contact@laplateforme.io<br>
+            – Par téléphone au 04.84.89.43.69 du lundi au vendredi de 9h à 17h<br>
+            – Sur les réseaux sociaux :<br></a>
+
+            <div id="icons">
+            <a href="https://www.facebook.com/LaPlateformeIO"><img src="https://img.icons8.com/plasticine/512/facebook.png"></a>
+            <a href="https://www.linkedin.com/school/laplateformeio/"><img src="https://img.icons8.com/plasticine/512/linkedin.png"></a>
+            <a href="https://twitter.com/LaPlateformeIO"><img src="https://img.icons8.com/plasticine/512/twitter.png"></a>
+            <a href="https://www.instagram.com/LaPlateformeIO/"><img src="https://img.icons8.com/plasticine/512/piccollage.png"></a> 
+           </div>
+        </div>
+
+        <div id="plan">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.4568521818564!2d5.367844315769485!3d43.304694982913645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c0eb8146c2d1%3A0xb2df496224e0aafe!2s8%20Rue%20d&#39;Hozier%2C%2013002%20Marseille!5e0!3m2!1sfr!2sfr!4v1668782206454!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div id="logos">
+            <img src="https://laplateforme.io/wp-content/uploads/2022/05/Logo_LaPLateforme_footer.svg" height="100px">
+            </div>
+
+            <div id="laplat">
+                <p>La Plateforme<br>
+                    Accueil<br>
+                    Qui sommes-nous ?<br>
+                    Notre brochure<br>
+                    Ils parlent de nous<br>
+                    Annuaire des Plateformeurs<br>
+                    Alumni des Plateformeurs<br>
+                    Taxe d'apprentissage<br></p>
+            </div>
+
+            <div id="lesfor">
+                <p>Les Formations<br>
+                    La Plateforme/Start<br>
+                    Coding School<br>
+                    Bachelor IT<br>
+                    Artificial Intelligence School<br>
+                    Cyber Security School<br></p>
+            </div>
+
+            <div id="inform">
+                <p>Informations<br>
+                    8 rue d’hozier, 13002 Marseille<br>
+                    Tel : 04.84.89.43.69<br></p>
+            </div>
+        </div>
+        
+        <div id="copyright">
+            © La Plateforme. Tous droits réservés. | Mentions légales | Cookies | Référent handicap : Jessica Soriano
+        </div>
+    </footer>
+</body>
+</html>

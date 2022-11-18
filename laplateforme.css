@@ -1,0 +1,435 @@
+header {    
+    font-family: 'Chivo', sans-serif;
+    font-size: 20px;
+}
+
+#navBar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#first {
+    display: flex;
+    background-color: #336699;
+    font-family: 'Chivo', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#first p {
+    margin: 100px;
+}
+
+#first a {
+    background-color: hotpink;
+    color: white;
+    border-radius: 40px;
+}
+
+#second {
+    display: flex;
+    justify-content: space-around;
+    color: #336699;
+    font-family: 'Chivo', sans-serif;
+}
+
+#web {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#ia {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#cyber {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;  
+    color: #336699;
+    font-family: 'Chivo', sans-serif;
+}
+
+#recrut {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+}
+
+#recrut img {
+    margin: 20px;
+}
+
+#formation {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+}
+
+#formation img {
+    margin: 20px;
+}
+
+#innovation {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+}
+
+#innovation img {
+    margin: 20px;
+}
+
+#fourth {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Chivo', sans-serif;
+}
+
+#decouvre {
+    text-align: center;
+    color: #336699;
+    font-family: 'Chivo', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #336699;
+    font-family: 'Chivo', sans-serif;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkslategray;
+    color: white;
+    font-family: 'Chivo', sans-serif;
+    padding: 100px;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+#copyright {
+    color: white;
+    background-color: black;
+    font-family: 'Chivo', sans-serif;
+    padding: 20px;
+}
+
+#qui {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Chivo', sans-serif;
+}
+
+#partenaires {
+    background-color: white;
+    text-align: center;
+}
+
+#certifications {
+    display: flex;
+}
+
+#certifications1 {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Chivo', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#certifications2 {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Chivo', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#certifications3 {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Chivo', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#certifications4 {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Chivo', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#presentation {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#actus {
+    display: flex;
+    justify-content: space-around;
+    background-color: #284f75;
+    font-family: 'Chivo', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 100px;
+}
+
+#actus2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 1000;
+}
+
+#case1 {
+    padding: 20px;
+    text-align: center;
+}
+
+#case2 {
+    padding: 20px;
+    text-align: center;
+}
+
+#case3 {
+    padding: 20px;    
+    text-align: center;
+}
+
+#case4 {
+    padding: 20px;
+    text-align: center;
+}
+
+#case5 {
+    padding: 20px;
+    text-align: center;
+}
+
+#case6 {
+    padding: 20px;
+    text-align: center;
+}
+
+#case7 {
+    padding: 20px;
+    text-align: center;
+}
+
+#case8 {
+    padding: 20px;
+    text-align: center;
+}
+
+#case9 {
+    padding: 20px;
+    text-align: center;
+}
+
+#case10 {
+    padding: 20px;
+    text-align: center;
+}
+
+#case1:hover {
+    color: #336699;
+    cursor: pointer;
+}
+
+#case2:hover {
+    color: #336699;
+    cursor: pointer;
+}
+
+#case3:hover {
+    color: #336699;
+    cursor: pointer;
+}
+
+#case4:hover {
+    color: #336699;
+    cursor: pointer;
+}
+
+#case5:hover {
+    color: #336699;
+    cursor: pointer;
+}
+
+#case5:hover {
+    color: #336699;
+    cursor: pointer;
+}
+
+#case6:hover {
+    color: #336699;
+    cursor: pointer;
+}
+
+#case7:hover {
+    color: #336699;
+    cursor: pointer;
+}
+
+#case8:hover {
+    color: #336699;
+    cursor: pointer;
+}
+
+#case9:hover {
+    color: #336699;
+    cursor: pointer;
+}
+
+#case10:hover {
+    color: #336699;
+    cursor: pointer;
+}
+
+form {
+    background-color: white;
+    color: #336699;
+    font-family: 'Chivo', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 70px;
+    line-height: 2;
+}
+
+button {
+    display: inline-block;
+    font-family: 'Chivo', sans-serif;
+    background-color: #336699;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+#icons img {
+    height: 50px;
+    margin-top: 30px;
+}
+
+#question {
+    margin-left: 200px;
+    font-family: 'Chivo', sans-serif;
+    font-size: 20px;
+    color: #336699;
+    line-height: 2;
+}
+
+#plan {
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+#platStart {
+    font-family: 'Chivo', sans-serif;
+    background-image: url(https://pbs.twimg.com/media/EGwd-DTWwAI8892.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-right: 500px;
+    padding-bottom: 1100px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+#platStart h3 {
+    font-size: 50px;
+    color: darkkhaki;
+}
+
+#platStart h4 {
+    font-size: 18px;
+    color: darkkhaki;
+}
+
+#platStart a {
+    font-size: 30px;
+    background-color: whitesmoke;
+    color:rgb(129, 110, 63);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#platStart2 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 200px;
+    font-family: 'Chivo', sans-serif;
+    text-shadow: 4px 4px 4px grey;
+}
+
+#platStart2 img {
+    height: 60px;
+}
+
+#platStart3 {
+    column-width: 30em;
+    font-size: 20px;
+    padding: 200px;
+    font-family: 'Chivo', sans-serif;
+    background-color: white;
+}
+
+#platStart3 img {
+    height: 300px;
+}
+
+#platStart4 {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Chivo', sans-serif;
+    padding: 100px;
+}
+
+#platStart5 {
+    background-color: white;
+    padding: 200px;
+    font-family: 'Chivo', sans-serif;
+}
+
+#platStart5 h1 {
+    color: black;
+    font-size: 50px;
+}
+
+#winners h5, #surface h5, #recommandation h5 {
+    font-size: 50px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+#winners a, #surface a, #recommandation a {
+    font-size: 20px;
+}
